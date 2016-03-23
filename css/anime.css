@@ -1,0 +1,843 @@
+body{
+  
+  margin:auto;
+  
+  -webkit-animation-name: sky; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 90s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+   -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+    animation-timing-function: ;  
+  animation-name: sky;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: 5;
+  }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes sky {
+    0%   {background-color:lightblue; left:0px; top:0px;}
+    25%  {background-color:lightblue; left:200px; top:0px;}
+    50%  {background-color:orange; left:200px; top:200px;}
+    75%  {background-color:purple; left:0px; top:200px;}
+    100% {background-color:black; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes sky {
+    0%   {background-color:lightblue; left:0px; top:0px;}
+    25%  {background-color:darkblue; left:200px; top:0px;}
+    50%  {background-color:orange; left:200px; top:200px;}
+    75%  {background-color:darkblue; left:0px; top:200px;}
+    100% {background-color:lightblue; left:0px; top:0px;}
+}
+
+
+
+.grass{
+  position:absolute;  
+  background-color:green;
+  width:100%;
+  height:98%;
+  margin-top:284px;
+  margin-left:13px;
+}
+
+div .w3-spin{
+  position:absolute;
+}
+
+
+#sun{
+  position:absolute;
+  background-color: yellow;
+  border: 3px solid orange;
+  border-radius:100%;
+  width:400px;
+  height:400px;
+  margin-left:800px;
+  z-index:-1;
+  
+  -webkit-animation-name: sun; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 90s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+   -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+ 
+  animation-timing-function: linear;  
+  animation-name: sun;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+ }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes sun {
+  0%   {background-color:orange; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:290px;}
+    50%  {background-color:orange; left:0px; top:290px;}
+    75%  {background-color:yellow; left:0px; top:0px;}
+    100% {background-color:orange; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes sun {
+    0%   {background-color:orange; left:0px; top:0px;}
+    25%  {background-color:yellow; left:0px; top:290px;}
+    50%  {background-color:orange; left:0px; top:0px;}
+    75%  {background-color:yellow; left:0px; top:290px;}
+    100% {background-color:orange; left:0px; top:0px;}
+}
+
+
+
+.moon{
+  position:absolute;
+  background-color:grey;
+  border: 1px solid darkgrey;
+  border-radius: 100%;
+  width:50px;
+  height:50px;
+  z-index:-1;<!--\-1-->
+  
+  -webkit-animation-name: moon; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 90s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+   -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
+ 
+  animation-timing-function: linear;  
+  animation-name: moon;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+  
+}
+
+/*******Moon Movement********/
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes moon {
+    0%   {background-color:orange; left:0px; top:500px;}
+    25%  {background-color:purple; left:500px; top:0px;}
+    50%  {background-color:orange; left:0px; top:500px;}
+    75%  {background-color:green; left:500px; top:0px;}
+    100% {background-color:yellow; left:0px; top:500px;}
+}
+
+/* Standard syntax */
+@keyframes moon {
+    0%   {background-color:orange;border-color:blue; left:0px; top:500px;}
+    25%  {background-color:purple; border-color:blue; left:500px; top:0px;}
+    50%  {background-color:orange; border-color:yellow; left:0px; top:500px;}
+    75%  {background-color:green; border-color:blue; left:500px; top:0px;}
+    100% {background-color:yellow; border-color:yellow; left:0px; top:500px;}
+}
+
+
+
+.ring{
+  position:inherit;
+  border:1px dotted red;
+  border-top-color:transparent;
+  border-radius:100%;
+  width:65px;
+  height:12px;
+  margin-top:17px;
+  margin-left:-8px;
+  transform:rotate(35deg);
+  
+   -webkit-animation-name: ringFX; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: ringFX;
+    animation-duration: 1s;
+   animation-iteration-count: infinite;
+  
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes ringFX {
+    0%   { left:0px; top:0px;}
+    25%  { left:2px; top:0px;}
+    50%  { left:7px; top:0px;}
+    75%  { left:0px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes ringFX {
+    0%   { left:1px; top:0px;}
+    25%  { left:0px; top:0px;}
+    50%  { left:1px; top:0px;}
+    75%  { left:0px; top:0px;}
+    100% { left:1px; top:0px;}
+}
+
+
+.ring2{
+  position:inherit;
+  border:1px dotted green;
+  border-top-color:transparent;
+  border-radius:100%;
+  width:65px;
+  height:12px;
+  margin-top:17px;
+  margin-left:-9px;
+  transform:rotate(35deg);
+  
+   -webkit-animation-name: ringFX2; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: ringFX2;
+    animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes ringFX2 {
+    0%   { left:0px; top:0px;}
+    25%  { left:2px; top:0px;}
+    50%  { left:7px; top:0px;}
+    75%  { left:0px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes ringFX2 {
+    0%   { left:-1px; top:0px;}
+    25%  { left:0px; top:0px;}
+    50%  { left:-1px; top:0px;}
+    75%  { left:0px; top:0px;}
+    100% { left:-1px; top:0px;}
+}
+
+.water{
+  position:absolute;
+  background-color: #0022ff;
+  border: 0px solid ;
+  border-top-right-radius:100%;
+  border-top-color: #0066ff;
+  width:99%;
+  height:100%;
+  margin-top:433px;
+  z-index:1;
+  -webkit-animation-name: water; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-name: water;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes water {
+    0%   {background-color:#0022ff; left:0px; top:0px;}
+    25%  {background-color:#0022ff; left:2px; top:0px;}
+    50%  {background-color:#0022ff; left:7px; top:0px;}
+    75%  {background-color:#0022ff; left:0px; top:0px;}
+    100% {background-color:#0022ff; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes water {
+    0%   {background-color:#0022ff; left:0px; top:0px;}
+    25%  {background-color:#0022ff; left:10px; top:0px;}
+    50%  {background-color:#0022ff; left:4px; top:0px;}
+    75%  {background-color:#0022ff; left:0px; top:0px;}
+    100% {background-color:#0022ff; left:0px; top:0px;}
+}
+
+.water1{
+  position:absolute;
+   width:2%;
+  height:100%;
+  margin-top:433px;
+  z-index:1;
+  background-color:#0022ff;
+  
+}
+
+/**********Wave FX************/
+
+#ocean{
+  position:;
+  
+}
+
+.wave1{
+  position:absolute;
+  border:1px solid lightblue;
+  width:100px;
+  height:50px;
+  margin-top:503px;
+  margin-left:60px;
+  z-index:3;
+  /*****************/
+  
+}
+
+.shore{
+  position:absolute;
+  background-color: tan;
+  border: 0px solid ;
+  border-radius:;
+  border-top-right-radius:100%;
+  border-top-color: #0066ff;
+  width:99%;
+  height:100%;
+  margin-top:433px;
+  margin-left:26px;
+  z-index: 1;    
+}
+
+#domes{
+ position:absolute;
+  margin-top:186px;
+    margin-left:333px;
+}
+
+.dome1{
+  position:absolute;
+  border:1px solid #6f6f6f ;
+  border-radius:100%;
+  width:20px;
+  height:20px;
+  margin-top:262px;
+  margin-left:247px;
+  background-color:#cfcfcf;
+  opacity: 0.3;
+  filter: alpha(opacity=60);
+  z-index:-1;
+}
+
+.antenna1{
+  position:absolute;
+  border:1px solid #262626;
+  width:5px;
+  height:auto;
+  transform:rotate(90deg);
+  margin-top:258px;
+  margin-left:254px;
+}
+
+.flasher1{
+  position:absolute;
+  width:3px;
+  height:3px;
+  border:1px solid black;
+  border-radius:100px;
+  margin-left:254.8px;
+  margin-top:254px;
+  
+   -webkit-animation-name: flasher; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: flasher;
+    animation-duration: 1s;
+   animation-iteration-count: infinite;
+  
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes flasher {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes flasher {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.dome2{
+  position:absolute;
+  border:1px solid #6f6f6f ;
+  border-radius:100%;
+  width:40px;
+  height:40px;
+  margin-top:254px;
+  margin-left:299px;
+  background-color:#cfcfcf;
+  opacity: 0.3;
+  filter: alpha(opacity=60);
+  z-index:-1;
+}
+
+.antenna2{
+  position:absolute;
+  border:1px solid #262626;
+  width:5px;
+  height:auto;
+  transform:rotate(90deg);
+  margin-top:250px;
+  margin-left:315px;
+}
+
+.flasher2{
+  position:absolute;
+  width:3px;
+  height:3px;
+  border:1px solid black;
+  border-radius:100px;
+  margin-left:316px;
+  margin-top:245px;
+  
+   -webkit-animation-name: flashers; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
+    animation-name: flashers;
+    animation-duration: 1.5s;
+   animation-iteration-count: infinite;
+  
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes flashers {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes flashers {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+#earth{
+  position:absolute;
+margin-top:193px;
+}
+
+
+.mountains{
+  position:absolute;
+  margin-left:57.1rem;
+  margin-top:244px;
+	width: 0; 
+	height: 0; 
+	border-left: 24px solid transparent;
+	border-right: 24px solid transparent;
+	border-bottom: 24px solid #804000;
+  z-index:1;
+} 
+
+.largeMountain{
+  position:absolute;
+  margin-left:61.5rem;
+  margin-top:230px;
+	width: 0; 
+	height: 0; 
+	border-left: 44px solid transparent;
+	border-right: 44px solid transparent;
+	border-bottom: 44px solid #804000;
+  z-index:0;
+}
+.snow{
+  position:absolute;
+  margin-left:932px;
+  margin-top:243px;
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid white;
+  z-index:1;
+}
+
+.snow2{
+  position:absolute;
+  margin-left:1023px;
+  margin-top:230px;
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid white;
+  z-index:1;  
+}
+
+#clouds{
+  position:absolute;
+  margin-top:103px;
+  
+   
+  -webkit-animation: cloudmove 100s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: cloudmove  infinite;
+  animation-duration:100s;
+    animation-direction: alternate;
+  transition-timing-function:ease-out;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes cloudmove {
+    0%   { left: 100px; top: 100px;}
+    25%  { left: 90%; top:-100px;}
+    50%  { left: 80%; top: 30px;}
+    75%  { left: 70%; top: 40px;}
+    100% { left: 60%; top: -100px;}
+}
+
+@keyframes cloudmove {
+    0%   { left: 100px; top: 100px;}
+    25%  { left: 90%; top:-100px;}
+    50%  { left: 80%; top: 30px;}
+    75%  { left: 70%; top: 40px;}
+    100% { left: 60%; top: -100px;}
+}
+
+
+
+.cl{
+  position:absolute;
+  border:1px solid white;
+  width:100px;
+  height:40px;
+  border-radius:100%;
+  margin-left:50%;
+  background-color:white;
+  z-index:0;  
+}
+
+
+.ou{
+  position:absolute;
+  border:1px solid white;
+  width:50px;
+  height:50px;
+  border-radius:100%;
+  margin-left:50%;
+  margin-top:-3px;
+  background-color:white;
+  z-index:1;  
+
+ -ms-transform: rotate(110deg);
+  /* IE 9 */
+  -webkit-transform: rotate(110deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(110deg);
+
+}
+
+.ds{
+  position:absolute;
+  border:1px solid white;
+  width:50px;
+  height:50px;
+  border-radius:100%;
+  margin-left:48px;
+  margin-top:-3px;
+  background-color:white;
+  z-index:-1;  
+
+}
+
+.puff{
+  position:absolute;
+  border:1px solid white;
+  width:60px;
+  height:70px;
+  border-radius:100%;
+  margin-left:15px;
+  margin-top:-13px;
+  background-color:white;
+  z-index:-1;  
+
+}
+
+
+.puffer{
+  position:absolute;
+  border:1px solid white;
+  width:20px;
+  height:20px;
+  border-radius:100%;
+  margin-left:20px;
+  margin-top:-13px;
+  background-color:white;
+  z-index:-1;  
+
+}
+
+.puffers{
+  position:absolute;
+  background-color:white;
+  border:1px solid white;
+  width:20px;
+  height:20px;
+  border-radius:100%;
+  margin-left:57px;
+  margin-top:35px;
+  background-color:white;
+  z-index:-1;  
+
+}
+
+#moreClouds{
+  position:absolute;
+  margin-top:103px;
+  
+   
+  -webkit-animation: cloudmover 100s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: cloudmover  infinite;
+  animation-duration:100s;
+    animation-direction: alternate;
+  transition-timing-function:ease-out;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes cloudmover{
+ 0%   { left: 1100px; top: 100px;}
+    25%  { left: 10%; top: 90px;}
+    50%  { left: 20%; top: 80px;}
+    75%  { left: 30%; top: 70px;}
+    100% { left: 40%; top: 60px;}
+}
+
+@keyframes cloudmover {
+    0%   { left: 1100px; top: 100px;}
+    25%  { left: 10%; top: 90px;}
+    50%  { left: 20%; top: 80px;}
+    75%  { left: 30%; top: 70px;}
+    100% { left: 40%; top: 60px;}
+}
+
+
+
+.c{
+  position:absolute;
+  border:1px solid white;
+  width:100px;
+  height:40px;
+  border-radius:100%;
+  margin-left:50%;
+  background-color:white;
+  z-index:0;  
+}
+
+
+.l{
+  position:absolute;
+  border:1px solid white;
+  width:50px;
+  height:50px;
+  border-radius:100%;
+  margin-left:50%;
+  margin-top:-3px;
+  background-color:white;
+  z-index:1;  
+
+ -ms-transform: rotate(110deg);
+  /* IE 9 */
+  -webkit-transform: rotate(110deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(110deg);
+
+}
+
+.o{
+  position:absolute;
+  border:1px solid white;
+  width:50px;
+  height:50px;
+  border-radius:100%;
+  margin-left:48px;
+  margin-top:-3px;
+  background-color:white;
+  z-index:-1;  
+
+}
+
+.u{
+  position:absolute;
+  border:1px solid white;
+  width:60px;
+  height:70px;
+  border-radius:100%;
+  margin-left:15px;
+  margin-top:-13px;
+  background-color:white;
+  z-index:-1;  
+
+}
+
+
+.d{
+  position:absolute;
+  border:1px solid white;
+  width:20px;
+  height:20px;
+  border-radius:100%;
+  margin-left:20px;
+  margin-top:-13px;
+  background-color:white;
+  z-index:-1;  
+
+}
+
+.s{
+  position:absolute;
+  background-color: white;
+  border:1px solid red;
+  width:20px;
+  height:20px;
+  border-radius:100%;
+  margin-left:57px;
+  margin-top:35px;
+  background-color:white;
+  z-index:-1;  
+
+}
+
+#nature{
+position:absolute;
+  margin-left:1000px;
+  margin-top:232px;
+  z-index:3;
+}
+
+
+
+
+#aliens{
+  position:absolute;
+  margin-top:183px;
+   -webkit-animation: ufomove 10s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: ufomove  infinite;
+  animation-duration:15s;
+    animation-direction: alternate;
+  transition-timing-function:ease-out;
+}
+
+.ufo{
+  position:absolute;
+  background-color:silver;
+  border: 1px ridge black;
+  border-radius:50%;
+  width:20px;
+  height: 4px;
+  margin-left:1020px;
+  margin-top:255px;
+  z-index:-1;
+  
+  
+}
+/*
+/* Chrome, Safari, Opera */
+@-webkit-keyframes ufomove {
+    0%   { left: 0px; top: 0px;}
+    25%  { left: -4%; top: 0px;}
+    50%  { left: 12%; top: 12px;}
+    75%  { left: -122%; top: 0px;}
+    100% { left: 20%; top: -200px;}
+}
+
+@keyframes ufomove {
+    0%   { left: 0px; top: 0px;}
+    25%  { left: -4%; top: -10px;}
+    50%  { left: 12%; top: 12px;}
+    75%  { left: -22%; top: 0px;}
+    100% { left: 20%; top: -20px;}
+}
+
+.cabin{
+  position:inherit;
+  width:3px;
+  height:3px;
+  background-color:transparent;
+  border:1px solid black;
+  border-radius:100px;
+  margin-left:7.5px;
+  margin-top:-4px;
+  z-index:1;
+}
+
+
+#lights{
+ position:absolute;
+  margin:0px auto;
+}
+.light1{
+  position:inherit;
+  width:1px;
+  height:1px;
+  border:1px solid black;
+  margin-left:2px;
+  
+    -webkit-animation-name: slashing; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: slashing;
+    animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes slashing {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes slashing {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+
+
+.light2{
+  position:inherit;
+  width:3px;
+  height:3px;
+  background-color:blue;
+  border:1px solid black;
+  border-radius:100px;
+  margin-left:7.5px;
+  margin-top:-.4px;
+  
+   -webkit-animation-name: flashing; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1.5s; /* Chrome, Safari, Opera */
+    animation-name: flashing;
+    animation-duration: 1.5s;
+   animation-iteration-count: infinite;
+  
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes flashing {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes flashing {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+}
+
+.light3{
+  position:inherit;
+  width:1px;
+  height:1px;
+  background-color:green;
+  border:1px solid black;
+  margin-left:15px;
+  
+     -webkit-animation-name: phlashing; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+    animation-name: phlashing;
+    animation-duration: 1s;
+  animation-iteration-count: infinite;
+  
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes phlashing {
+    from {background-color: green;}
+    to {background-color: orange;}
+}
+
+/* Standard syntax */
+@keyframes phlashing {
+    from {background-color: green;}
+    to {background-color: orange;}
+}
