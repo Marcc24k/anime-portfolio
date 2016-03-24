@@ -27,12 +27,30 @@ h3 {
 
 p{
     position: absolute;
-    margin-top:123px;
+    margin-top:523px;
     align-content: center;
     width:800px;
-    height:200px;;
+    height:100px;
+    z-index: 3;
 }
  
+.about{
+    color:black;
+}
+
+.description{
+    color:white;
+    background-color: darkgreen;
+    padding:14px;
+    top:200px;
+    text-align: center;
+    border:2px solid whitesmoke;
+    border-radius:0px 0px 5px 5px black;
+    border-radius:2% ;
+    box-shadow: 0px 0px 3px 3px #6a6a6a;
+    opacity: .7;
+    filter: opacity(.3%);
+}
 /**********************************
 HEADING
 ***********************************/
@@ -77,7 +95,7 @@ nav {
     }
 
 nav ul {
-  list-style: none;
+  list-style:none;
   margin: 0 10px;
   padding: 0;
 }
@@ -90,22 +108,38 @@ nav a {
   font-weight: 800;
   padding: 15px 10px;
 }
+
+
 /**********************************
 FOOTER
 ***********************************/
 
 footer {
-  font-size: .75em;
-  text-align: center;
-  clear: both;
-  padding-top: 50px;
-  margin: #ccc;
+font-size: .75em;
+text-align: center;
+clear: both;
+padding-top: 50px;
+
+  
     }
 
 .social-icon {
+    color:black;
   width: 20px;
   height: 20px;
-  margin: 0 5px;
+  margin-top:543px;
+  margin-left:323px;
+  z-index:5;
+}
+
+.regs{
+   color:whitesmoke;
+    top:440px;
+    margin-left:20%;
+    width:200px;;
+    height:15px;
+    bottom:100%;
+    z-index: 3;
 }
 
 /**********************************
@@ -191,8 +225,8 @@ body {
 
 /* green header*/
 header {
-  background: #6ab47b;
   border: #599a68;
+  background:#339933;
 }
 
 /* nav background for mobile*/

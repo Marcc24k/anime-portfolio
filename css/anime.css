@@ -1,48 +1,72 @@
-body{
-  
-  margin:auto;
-  
+
+ 
+
+
+.sunset{
+ position: absolute;
+    height: 500px;   
+width: 1809px;
+    
   -webkit-animation-name: sky; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 90s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
    -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
     animation-timing-function: ;  
-  animation-name: sky;
+    animation-name: sky;
     animation-duration: 90s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    z-index: 5;
-  }
-
+    z-index: -1;
+    
+}
 /* Chrome, Safari, Opera */
 @-webkit-keyframes sky {
-    0%   {background-color:lightblue; left:0px; top:0px;}
-    25%  {background-color:lightblue; left:200px; top:0px;}
-    50%  {background-color:orange; left:200px; top:200px;}
-    75%  {background-color:purple; left:0px; top:200px;}
-    100% {background-color:black; left:0px; top:0px;}
+    0%   {background-color:lightblue;}
+    25%  {background-color:lightblue;}
+    50%  {background-color:orange;}
+    75%  {background-color:purple;}
+    100% {background-color:black;}
 }
 
 /* Standard syntax */
 @keyframes sky {
-    0%   {background-color:lightblue; left:0px; top:0px;}
-    25%  {background-color:darkblue; left:200px; top:0px;}
-    50%  {background-color:orange; left:200px; top:200px;}
-    75%  {background-color:darkblue; left:0px; top:200px;}
-    100% {background-color:lightblue; left:0px; top:0px;}
+    0%   {background-color:lightblue;}
+    25%  {background-color:darkblue;}
+    50%  {background-color:orange;}
+    75%  {background-color:darkblue;}
+    100% {background-color:lightblue;}
 }
-
-
 
 .grass{
   position:absolute;  
   background-color:green;
-  width:100%;
-  height:98%;
+  width:1497px;
+  height:470px;
   margin-top:284px;
-  margin-left:13px;
+  margin-left:-123px;
 }
+
+#nature{
+    position: absolute;
+    margin-top:233px;
+    margin-left:-123px;
+    height:100px;
+    width:200px;
+}
+
+.dirt{
+      border: #599a68;
+  background: #b30000;
+    box-shadow: 0px 0px 9px 9px orange;
+    border-radius:1% ;
+    width:1798px;
+    height:274px;
+    margin-top:476px;
+    margin-left:-996px;
+    z-index: 4;
+}
+
 
 div .w3-spin{
   position:absolute;
@@ -216,9 +240,9 @@ div .w3-spin{
   border: 0px solid ;
   border-top-right-radius:100%;
   border-top-color: #0066ff;
-  width:99%;
-  height:100%;
-  margin-top:433px;
+  width:1771px;
+  height:480px;
+  margin-top:446px;
   z-index:1;
   -webkit-animation-name: water; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
@@ -249,11 +273,11 @@ div .w3-spin{
 .water1{
   position:absolute;
    width:2%;
-  height:100%;
-  margin-top:433px;
+  height:470px;
+  margin-top:446px;
   z-index:1;
   background-color:#0022ff;
-  
+  z-index: 3;
 }
 
 /**********Wave FX************/
@@ -278,14 +302,13 @@ div .w3-spin{
 .shore{
   position:absolute;
   background-color: tan;
-  border: 0px solid ;
-  border-radius:;
+  border: 0px solid;
   border-top-right-radius:100%;
   border-top-color: #0066ff;
-  width:99%;
-  height:100%;
-  margin-top:433px;
-  margin-left:26px;
+  width:1731px;
+  height:480px;
+  margin-top:449px;
+  margin-left:76px;
   z-index: 1;    
 }
 
@@ -451,12 +474,13 @@ margin-top:193px;
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
 	border-bottom: 5px solid white;
-  z-index:1;  
+  z-index:2;  
 }
 
 #clouds{
   position:absolute;
   margin-top:103px;
+    z-index: 2;
   
    
   -webkit-animation: cloudmove 100s infinite; /* Chrome, Safari, Opera */
@@ -573,7 +597,8 @@ margin-top:193px;
 #moreClouds{
   position:absolute;
   margin-top:103px;
-  
+  z-index:2;
+     
    
   -webkit-animation: cloudmover 100s infinite; /* Chrome, Safari, Opera */
     -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
@@ -609,7 +634,7 @@ margin-top:193px;
   border-radius:100%;
   margin-left:50%;
   background-color:white;
-  z-index:0;  
+  z-index:-1;  
 }
 
 
@@ -675,7 +700,7 @@ margin-top:193px;
 .s{
   position:absolute;
   background-color: white;
-  border:1px solid red;
+  border:1px solid white;
   width:20px;
   height:20px;
   border-radius:100%;
