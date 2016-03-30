@@ -5,7 +5,7 @@
 .sunset{
  position: absolute;
     height: 500px;   
-width: 1825px;
+width: 100%;
     
   -webkit-animation-name: sky; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 90s; /* Chrome, Safari, Opera */
@@ -41,10 +41,10 @@ width: 1825px;
 .grass{
   position:absolute;  
   background-color:green;
-  width:1506px;
+  width:100%;
   height:470px;
   margin-top:284px;
-  margin-left:-123px;
+  margin-left:-500px;
 }
 
 #nature{
@@ -56,22 +56,37 @@ width: 1825px;
 }
 
 .dirt{
-      border: #599a68;
-  background: #b30000;
-    box-shadow: 0px 0px 9px 9px orange;
+    border: #599a68;
+  background:#272646;
+    box-shadow: 0px 0px 9px 9px #599a68;
     border-radius:1% ;
-    width:1813px;
+    width:1823px;
     height:274px;
-    margin-top:476px;
-    margin-left:-996px;
+    margin-top:465px;
+    margin-left:-952px;
     z-index: 4;
 }
 
-
-div .w3-spin{
-  position:absolute;
+.legend_left{
+    position: absolute;
+    border:2px dashed;
+      box-shadow: 0px 0px 2px 1px #00ff00;
+    width:255px;
+    margin-left: 223px;
+    margin-top: 135px;
+    transform:rotate(90deg);
+    z-index: 5;
 }
-
+.legend_right{
+    position: absolute;
+    border:2px dashed;
+      box-shadow: 0px 0px 2px 1px #00ff00;
+    width:255px;
+    margin-left: 1230px;
+    margin-top: 135px;
+    transform:rotate(90deg);
+    z-index: 5;
+}
 
 #sun{
   position:absolute;
@@ -518,9 +533,9 @@ div .w3-spin{
     margin-left:23px;
     
     -webkit-animation-name: island; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 40s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 55s; /* Chrome, Safari, Opera */
     animation-name: island;
-    animation-duration: 45s;
+    animation-duration: 55s;
    animation-iteration-count: infinite;
      animation-direction: alternate;
   transition-timing-function:ease-out;
@@ -757,10 +772,10 @@ div .w3-spin{
   z-index:-1;
      
    
-  -webkit-animation: island 45s infinite; /* Chrome, Safari, Opera */
+  -webkit-animation: island 55.1s infinite; /* Chrome, Safari, Opera */
     -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
     animation: island  infinite;
-  animation-duration:45.01s;
+  animation-duration:55.01s;
     animation-direction: alternate;
   transition-timing-function:ease-out;
 }
@@ -888,35 +903,35 @@ margin-top:193px;
 	border-right: 24px solid transparent;
 	border-bottom: 24px solid #804000;
   z-index:1;
-} 
+}
 
 .largeMountain{
   position:absolute;
   margin-left:61.5rem;
-  margin-top:230px;
+  margin-top:170px;
 	width: 0; 
 	height: 0; 
-	border-left: 44px solid transparent;
-	border-right: 44px solid transparent;
-	border-bottom: 44px solid #804000;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid #804000;
   z-index:0;
 }
 .snow{
   position:absolute;
-  margin-left:932px;
-  margin-top:243px;
+  margin-left:1069px;
+  margin-top:170px;
 	width: 0; 
 	height: 0; 
-	border-left: 5px solid transparent;
-	border-right: 5px solid transparent;
-	border-bottom: 5px solid white;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 15px solid white;
   z-index:1;
 }
 
 .snow2{
   position:absolute;
-  margin-left:1023px;
-  margin-top:230px;
+  margin-left:932.6px;
+  margin-top:244px;
 	width: 0; 
 	height: 0; 
 	border-left: 5px solid transparent;

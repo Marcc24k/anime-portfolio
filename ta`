@@ -1,0 +1,45 @@
+[33mcommit 47d1702c2901b99e87125253a3f672cb1a1cc01d[m
+Author: Marc Cook <Marc Cook>
+Date:   Thu Mar 24 21:54:04 2016 -0400
+
+    Hope all goes well
+
+[33mcommit 822020fc8dce9428510830d6911bf75cf5ec5a36[m
+Merge: 77a5654 8fae1f1
+Author: Marc Cook <Marc Cook>
+Date:   Thu Mar 24 21:52:22 2016 -0400
+
+    Merge https://github.com/marcc24k/Portfolio
+    Hope this goes well
+
+[33mcommit 77a565423418f02384f737a8400ccbceef453a33[m
+Author: Marc Cook <Marc Cook>
+Date:   Wed Mar 23 21:45:03 2016 -0400
+
+    updated the layout and a squashed a few bugs
+
+[33mcommit 8fae1f121de83ab26b926a8c93092396d49c96cb[m
+Author: Marcc24k <marcc24k@gmail.com>
+Date:   Tue Mar 22 23:42:10 2016 -0400
+
+    Update README.md
+
+[33mcommit 3e85f738582be7cb060eaea97f932b85eefd4c35[m
+Merge: d60c8ab e2b45a3
+Author: Marc Cook <Marc Cook>
+Date:   Tue Mar 22 23:32:46 2016 -0400
+
+    Merge https://github.com/marcc24k/portfolio
+    to merger readme file
+
+[33mcommit d60c8ab1ef80f09a7b3a088628c558e5db59d85e[m
+Author: Marc Cook <Marc Cook>
+Date:   Tue Mar 22 23:13:14 2016 -0400
+
+    Initial push
+
+[33mcommit e2b45a363505ee258ad070290bce0bab4cec235b[m
+Author: Marcc24k <marcc24k@gmail.com>
+Date:   Tue Mar 22 23:09:02 2016 -0400
+
+    Initial commit
