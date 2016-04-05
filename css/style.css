@@ -1,0 +1,889 @@
+  body {
+    background-color: black;
+  }
+  
+  #form {
+    text-align: center;
+    z-index: 0;
+  }
+  
+  #ouster {
+    position: absolute;
+    border:5px inset #8f00b3;
+    border-radius: 10%;
+    box-shadow: 0px 0px 8px 6px ;
+    width: 200px;
+    background-color: #302280;
+    margin-left: 40%;
+    margin-top: 10%;
+    padding: 5%;
+  }
+  
+h1{
+  font-family: 'Pacifico', cursive;
+  color:orange;
+}
+#styles{
+  position:absolute;
+  color:green;
+  width:100%;
+  height:100%;
+  z-index:-1;
+}
+
+
+  .A {
+    position: absolute;
+    -webkit-animation-name: A;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s;
+    /* Chrome, Safari, Opera */
+    animation-name: A;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes A {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      left: 70%;
+      top: 90%;
+    }
+    50% {
+      left: 10%;
+      top: 90%;
+    }
+    75% {
+      left: 0px;
+      top: 30%;
+    }
+    100% {
+      left: 90%;
+      top: 50%;
+    }
+  }
+  /* Standard syntax */
+  
+  @keyframes A {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      left: 70%;
+      top: 90%;
+    }
+    50% {
+      left: 10%;
+      top: 90%;
+    }
+    75% {
+      left: 0px;
+      top: 30%;
+    }
+    100% {
+      left: 90%;
+      top: 50%;
+    }
+  }
+  
+  .B {
+    position: absolute;
+    -webkit-animation-name: B;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 12s;
+    /* Chrome, Safari, Opera */
+    animation-name: B;
+    animation-duration: infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes B {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      left: 40%;
+      top: 90%;
+    }
+    50% {
+      left: 10%;
+      top: 10%;
+    }
+    75% {
+      left: 0px;
+      top: 30%;
+    }
+    100% {
+      left: 90%;
+      top: 50%;
+    }
+  }
+  /* Standard syntax */
+  
+  @keyframes B {
+    0% {
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      left: 40%;
+      top: 90%;
+    }
+    50% {
+      left: 10%;
+      top: 10%;
+    }
+    75% {
+      left: 0px;
+      top: 30%;
+    }
+    100% {
+      left: 90%;
+      top: 50%;
+    }
+  }
+  
+  .C {
+    position: absolute;
+    -webkit-animation-name: C;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 14s;
+    /* Chrome, Safari, Opera */
+    animation-name: C;
+    animation-duration: infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes C {
+    0% {
+      left: 80px;
+      top: 60px;
+    }
+    25% {
+      left: 80%;
+      top: 10%;
+    }
+    50% {
+      left: 80%;
+      top: 90%;
+    }
+    75% {
+      left: 0px;
+      top: 3%;
+    }
+    100% {
+      left: 90%;
+      top: 5%;
+    }
+  }
+  /* Standard syntax */
+  
+  @keyframes C {
+    1% {
+      left: 80px;
+      top: 60px;
+    }
+    25% {
+      left: 80%;
+      top: 10%;
+    }
+    50% {
+      left: 80%;
+      top: 90%;
+    }
+    75% {
+      left: 0px;
+      top: 3%;
+    }
+    100% {
+      left: 90%;
+      top: 5%;
+    }
+  }
+  
+  .D {
+    position: absolute;
+    -webkit-animation-name: D;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 14s;
+    /* Chrome, Safari, Opera */
+    animation-name: D;
+    animation-duration: infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes D {
+    0% {
+      left: 10px;
+      top: 6px;
+    }
+    25% {
+      left: 0%;
+      top: 60%;
+    }
+    50% {
+      left: 40%;
+      top: 90%;
+    }
+    75% {
+      left: 3px;
+      top: 3%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  /* Standard syntax */
+  
+  @keyframes D {
+    0% {
+      left: 10px;
+      top: 6px;
+    }
+    25% {
+      left: 0%;
+      top: 60%;
+    }
+    50% {
+      left: 40%;
+      top: 90%;
+    }
+    75% {
+      left: 3px;
+      top: 3%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  
+  .E {
+    position: absolute;
+    -webkit-animation-name: E;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 14s;
+    /* Chrome, Safari, Opera */
+    animation-name: E;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes E {
+    0% {
+      left: 10px;
+      top: 6px;
+    }
+    25% {
+      left: 0%;
+      top: 60%;
+    }
+    50% {
+      left: 40%;
+      top: 90%;
+    }
+    75% {
+      left: 3px;
+      top: 3%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  /* Standard syntax */
+  
+  @keyframes E {
+    0% {
+      left: 50px;
+      top: 60px;
+    }
+    25% {
+      left: 80%;
+      top: 46%;
+    }
+    50% {
+      left: 53%;
+      top: 97%;
+    }
+    75% {
+      left: 83px;
+      top: 35%;
+    }
+    100% {
+      left: 89%;
+      top: 50%;
+    }
+  }
+  
+  .F {
+    position: absolute;
+    -webkit-animation-name: F;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 14s;
+    /* Chrome, Safari, Opera */
+    animation-name: F;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes F {
+    0% {
+      left: 10px;
+      top: 6px;
+    }
+    25% {
+      left: 0%;
+      top: 60%;
+    }
+    50% {
+      left: 40%;
+      top: 90%;
+    }
+    75% {
+      left: 3px;
+      top: 3%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  /* Standard syntax */
+  
+  @keyframes F {
+    0% {
+      left: 10px;
+      top: 60px;
+    }
+    25% {
+      left: 0%;
+      top: 6%;
+    }
+    50% {
+      left: 43%;
+      top: 9%;
+    }
+    75% {
+      left: 3px;
+      top: 35%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  
+  .G {
+    position: absolute;
+    -webkit-animation-name: G;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 16s;
+    /* Chrome, Safari, Opera */
+    animation-name: G;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes G {
+    0% {
+      left: 10px;
+      top: 6px;
+    }
+    25% {
+      left: 0%;
+      top: 60%;
+    }
+    50% {
+      left: 40%;
+      top: 90%;
+    }
+    75% {
+      left: 3px;
+      top: 3%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  /* Standard syntax */
+  
+  @keyframes G {
+    0% {
+      left: 0px;
+      top: 60px;
+    }
+    25% {
+      left: 0%;
+      top: 6%;
+    }
+    50% {
+      left: 43%;
+      top: 9%;
+    }
+    75% {
+      left: 3px;
+      top: 35%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  
+  .H {
+    position: absolute;
+    -webkit-animation-name: H;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 9s;
+    /* Chrome, Safari, Opera */
+    animation-name: H;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes H {
+    0% {
+      left: 10px;
+      top: 6px;
+    }
+    25% {
+      left: 0%;
+      top: 60%;
+    }
+    50% {
+      left: 40%;
+      top: 90%;
+    }
+    75% {
+      left: 3px;
+      top: 3%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  /* Standard syntax */
+  
+  @keyframes H {
+    0% {
+      left: 10px;
+      top: 60px;
+    }
+    25% {
+      left: 0%;
+      top: 6%;
+    }
+    50% {
+      left: 43%;
+      top: 9%;
+    }
+    75% {
+      left: 3px;
+      top: 35%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  
+  .I {
+    position: absolute;
+    -webkit-animation-name: I;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 20s;
+    /* Chrome, Safari, Opera */
+    animation-name: I;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes I {
+    0% {
+      left: 10px;
+      top: 6px;
+    }
+    25% {
+      left: 0%;
+      top: 60%;
+    }
+    50% {
+      left: 40%;
+      top: 90%;
+    }
+    75% {
+      left: 3px;
+      top: 3%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  /* Standard syntax */
+  
+  @keyframes I {
+    0% {
+      left: 10px;
+      top: 60px;
+    }
+    25% {
+      left: 0%;
+      top: 6%;
+    }
+    50% {
+      left: 43%;
+      top: 9%;
+    }
+    75% {
+      left: 3px;
+      top: 35%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  
+.J {
+    position: absolute;
+    -webkit-animation-name: J;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 9s;
+    /* Chrome, Safari, Opera */
+    animation-name: J;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes J {
+    0% {
+      left: 10px;
+      top: 6px;
+    }
+    25% {
+      left: 0%;
+      top: 60%;
+    }
+    50% {
+      left: 40%;
+      top: 90%;
+    }
+    75% {
+      left: 3px;
+      top: 3%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  /* Standard syntax */
+  
+  @keyframes J {
+    0% {
+      left: 90px;
+      top: 6px;
+    }
+    25% {
+      left: 30%;
+      top: 56%;
+    }
+    50% {
+      left: 3%;
+      top: 29%;
+    }
+    75% {
+      left: 63px;
+      top: 85%;
+    }
+    100% {
+      left: 59%;
+      top: 53%;
+    }
+  }
+  
+
+.K {
+    position: absolute;
+    -webkit-animation-name: K;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 19s;
+    /* Chrome, Safari, Opera */
+    animation-name: K;
+    animation-duration: 19s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+ K}
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes K {
+    0% {
+      left: 10px;
+      top: 6px;
+    }
+    25% {
+      left: 0%;
+      top: 60%;
+    }
+    50% {
+      left: 40%;
+      top: 90%;
+    }
+    75% {
+      left: 3px;
+      top: 3%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  /* Standard syntax */
+  
+  @keyframes K {
+    0% {
+      left: 90px;
+      top: 6px;
+    }
+    25% {
+      left: 0%;
+      top: 96%;
+    }
+    50% {
+      left: 43%;
+      top: 49%;
+    }
+    75% {
+      left: 83px;
+      top: 35%;
+    }
+    100% {
+      left: 90%;
+      top: 5%;
+    }
+  }
+  
+.L {
+    position: absolute;
+    -webkit-animation-name: L;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s;
+    /* Chrome, Safari, Opera */
+    animation-name: L;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes L {
+    0% {
+      left: 10px;
+      top: 6px;
+    }
+    25% {
+      left: 0%;
+      top: 60%;
+    }
+    50% {
+      left: 40%;
+      top: 90%;
+    }
+    75% {
+      left: 3px;
+      top: 3%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  /* Standard syntax */
+  
+  @keyframes L {
+    0% {
+      left: 10px;
+      top: 60px;
+    }
+    25% {
+      left: 0%;
+      top: 6%;
+    }
+    50% {
+      left: 43%;
+      top: 9%;
+    }
+    75% {
+      left: 3px;
+      top: 35%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  
+.M {
+    position: absolute;
+    -webkit-animation-name: M;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s;
+    /* Chrome, Safari, Opera */
+    animation-name: M;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes M {
+    0% {
+      left: 10px;
+      top: 6px;
+    }
+    25% {
+      left: 0%;
+      top: 60%;
+    }
+    50% {
+      left: 40%;
+      top: 90%;
+    }
+    75% {
+      left: 3px;
+      top: 3%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  /* Standard syntax */
+  
+  @keyframes M {
+    0% {
+      left: 10px;
+      top: 60px;
+    }
+    25% {
+      left: 0%;
+      top: 6%;
+    }
+    50% {
+      left: 43%;
+      top: 9%;
+    }
+    75% {
+      left: 3px;
+      top: 35%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+  
+.N {
+    position: absolute;
+    -webkit-animation-name: N;
+    /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 9s;
+    /* Chrome, Safari, Opera */
+    animation-name: N;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    z-index: -1;
+  }
+  /* Chrome, Safari, Opera */
+  
+  @-webkit-keyframes N {
+0% {
+      left: 80px;
+      top: 60px;
+    }
+    25% {
+      left: 40%;
+      top: 46%;
+    }
+    50% {
+      left: 93%;
+      top: 19%;
+    }
+    75% {
+      left: 3px;
+      top: 35%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+  }
+  /* Standard syntax */
+  
+  @keyframes N {
+    1% {
+      left: 80px;
+      top: 60px;
+    }
+    25% {
+      left: 40%;
+      top: 46%;
+    }
+    50% {
+      left: 93%;
+      top: 19%;
+    }
+    75% {
+      left: 3px;
+      top: 35%;
+    }
+    100% {
+      left: 9%;
+      top: 5%;
+    }
+  }
+    
+    

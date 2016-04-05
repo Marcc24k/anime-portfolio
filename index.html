@@ -1,177 +1,219 @@
-<!DOCTYPE html>
-<html>
-  <head>
-     <meta charset="utf-8">
-      <title>Marc Cook | Designer</title>
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device=-width. initial-scale=1.9">
+    <title>Marc Cook | Designer</title>
     <link rel="stylesheet" href="css/normalize.css">
-      <link rel="stylesheet" href="css/anime.css">
-    <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700|Lobster|Roboto:400,700italic,700,500italic" rel='stylesheet'>
+    <link rel="stylesheet" href="css/anime.css">
+    <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700|Lobster|Roboto:400,700italic,700,500italic" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <meta name="viewport" content="width=device=-width. initial-scale=1.9">
-     </head>
-  <body>
-    
-<!--Sunset-->
-      <div class='sunset'></div>  
-      
-<!-- Scenery-->
-      <div class='orbit'>
-  <div id='sun'></div>
-</div>
-
-<div id='mooon'>
-  <div class='moon'>
-    <div class='ring'></div>
-    <div class='ring2'></div>
-  </div>
-</div>
-
-<div id='ocean'>
-    <div class='shore'></div>
-    <div class='water'></div>
-  <div class='water1'></div>
-   
-  </div>
-</div>
+    <script type="text/javascript" src="js/jquery-1.12.1.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 
 
-<div id='domes'>
-  
-  <div class='dome1'></div>
-  <div class='antenna1'></div>
-     <div class='flasher1'></div>
-  
-  <div class='dome2'></div>
-    <div class='antenna2'> </div>
-      <div class='flasher2'></div> 
- 
-  <div class='dome3'></div>
-    <div class='antenna3'></div>
-       <div class='flasher3'></div> 
-    
-    <div class='dome4'></div>
-    <div class='antenna4'></div>
-       <div class='flasher4'></div> 
-    
-    <div class='dome5'></div>
-    <div class='antenna5'></div>
-       <div class='flasher5'></div> 
-    
-<!--   Flying Island-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#draggable").draggable();
+        });
+    </script>
 
-<div id='island'>
-  <div class='castle'></div>
-   <div class='main_building'></div>
-   <div class='main_door'></div>
-   <div class='window'></div>
-   <div class='tower_bottom'></div>
-    <div class='tower_top'></div>
-     <div class='tower_top_right'></div>
-    <div class='tower_bottom_right'></div>
-  <div class='spike'></div>
-  <div class='LrgSpike'></div>
-  <div class='moss'></div>
-  <div class='moss2'></div>
+    <!--<script type="text/javascript" src="draggable.js"></script>-->
+
+
+</head>
+
+<body>
+
+
+    <!--Sunset-->
+    <div class="sunset"></div>
+
+    <!-- Scenery-->
+    <div class="orbit">
+        <div id="sun"></div>
     </div>
-    
-      <div id='MmoreClouds'>
-  <div class='cc'></div>
-  <div class='ll'></div>
-  <div class='oo'></div>
-  <div class='uu'></div>
-  <div class='dd'></div>
-  <div class='ss'></div>
-</div>
-    
-    
-</div>
 
-<div id='earth'>
-  <div class='mountains'></div>
-  <div class='largeMountain'></div>
-  <div class='snow'></div>
-  <div class='snow2'></div>
-</div>
+    <div id="mooon">
+        <div class="moon">
+            <div class="ring"></div>
+            <div class="ring2"></div>
+        </div>
+    </div>
 
-<div id='clouds'>
-  <div class='cl'></div>
-  <div class='ou'></div>
-  <div class='ds'></div>
-  <div class='puff'></div>
-  <div class='puffer'></div>
-  <div class='puffers'></div>
-</div>
+    <div id="ocean">
+        <div class="shore" style="height: 514px;"></div>
+        <div class="water" style="height: 508px;"></div>
+        <div class="water1" style="height: 549px;"></div>
 
-<div id='moreClouds'>
-  <div class='c'></div>
-  <div class='l'></div>
-  <div class='o'></div>
-  <div class='u'></div>
-  <div class='d'></div>
-  <div class='s'></div>
-</div>
+    </div>
 
-<div id='nature'>
-  <div class='tree'>
-    <div class='treetop'></div>
-  </div>
-  <div class='dirt'>
-      <div class='legend_left'></div>
-      <div class='legend_right'></div>
-       </div>
-</div>
+    <div id="cars">
+        <div class="car_one" style="left: 1231px; top: 454px; height: 3px;"></div>
+        <div class="car_dome" style=" left: 1112px; top: -116px;"></div>
+
+    </div>
 
 
-<div id='aliens'>
-  <div class='ufo'>
-    <div class='cabin'></div>
-    <div id='lights'></div>
-    <div class='light1'></div>
-    <div class='light2'></div>
-    <div class='light3'></div>
-  </div>
- </div>
+    <div id="domes">
 
-</div>
+        <div class="dome1"></div>
+        <div class="antenna1"></div>
+        <div class="flasher1"></div>
 
-</div>
-      
-      
-      
+        <div class="dome2"></div>
+        <div class="antenna2"> </div>
+        <div class="flasher2"></div>
+
+        <div class="dome3"></div>
+        <div class="antenna3"></div>
+        <div class="flasher3"></div>
+
+        <div class="dome4"></div>
+        <div class="antenna4"></div>
+        <div class="flasher4"></div>
+
+        <div class="dome5"></div>
+        <div class="antenna5"></div>
+        <div class="flasher5"></div>
+
+        <!--   Flying Island-->
+
+        <div id="island">
+            <div class="castle"></div>
+            <div class="main_building"></div>
+            <div class="main_door"></div>
+            <div class="window"></div>
+            <div class="tower_bottom"></div>
+            <div class="tower_top"></div>
+            <div class="tower_top_right"></div>
+            <div class="tower_bottom_right"></div>
+            <div class="spike"></div>
+            <div class="LrgSpike"></div>
+            <div class="moss"></div>
+            <div class="moss2"></div>
+        </div>
+
+        <div id="MmoreClouds">
+            <div class="cc"></div>
+            <div class="ll"></div>
+            <div class="oo"></div>
+            <div class="uu"></div>
+            <div class="dd"></div>
+            <div class="ss"></div>
+        </div>
+
+
+    </div>
+
+    <div id="earth">
+        <div class="mountains"></div>
+        <div class="largeMountain" style="width: 1px; height: 1px; left: -29px; top: 0px;"></div>
+        <div class="snow" style="left: -28px; top: 0px;"></div>
+        <div class="snow2"></div>
+    </div>
+
+    <div id="clouds">
+        <div class="cl"></div>
+        <div class="ou"></div>
+        <div class="ds"></div>
+        <div class="puff"></div>
+        <div class="puffer"></div>
+        <div class="puffers"></div>
+    </div>
+
+    <div id="moreClouds">
+        <div class="c"></div>
+        <div class="l"></div>
+        <div class="o"></div>
+        <div class="u" style="width: 62px; height: 65px;"></div>
+        <div class="d"></div>
+        <div class="s"></div>
+    </div>
+
+    <div id="nature">
+        <div class="tree">
+            <div class="treetop"></div>
+        </div>
+        <div class="dirt" style="margin-left: -953px; margin-top: 479px;">
+            <div class="legend_left"></div>
+            
+            <div class="legend_right"></div>
+<!--BUILDINGS-->
+            
+            <div id="drag">
+            <img src="img/office_building.png" alt="office building" class="office-building" style="width: 57px; margin-left: 1480px; margin-top: 29px;">
+        </div>
+            </div>
+    </div>
+
+
+    <div id="aliens">
+        <div class="ufo">
+            <div class="cabin"></div>
+            <div id="lights"></div>
+            <div class="light1"></div>
+            <div class="light2"></div>
+            <div class="light3"></div>
+        </div>
+    </div>
+
+
+
+    <!--
+DRAGGABLE CONTENT
+-->
+
+
+    <div id="draggable" class="ui-widget-content ui-draggable ui-draggable-handle">
+        <div class="mountain_move" style="left: -1px; top: 1px;"></div>
+        <div class="snow_move"></div>
+    </div>
+
+
+    <!---->
+
     <header>
-      <a href="index.html" id="logo">
-        <h1>Marc Cook</h1>
-        <h2>Designer / Web Developer</h2>
-      </a>
-      <nav>
-       <ul>
-          <li><a href="index.html" class="selected">About</a></li>
-          <li><a href="about.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-       
-     </ul>
-      </nav>
+        <a href="index.html" id="logo">
+            <h1>Marc Cook</h1>
+            <h2>Designer / Web Developer</h2>
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" class="selected">About</a>
+                </li>
+                <li><a href="about.html">Portfolio</a>
+                </li>
+                <li><a href="contact.html">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
     </header>
-    <div id="wrapper"> 
-    
-      <section>
-        <img src="img/Profile-Img-Circle.jpg" alt="Photograph of Sirealious Pendragon" class="profile-photo">
-        <h3 class='about'> About</h3>
-        <p class='description'>Hi, My name is Marc Cook and this is my design portfolio, when I am not designing web pages you can most likely find me: mountain biking/kayaking, disc golfing, woodworking/skulping or playing with my cats. </p>
-        
+    <div id="wrapper">
+
+        <section>
+            <img src="img/Profile-Img-Circle.jpg" alt="Photograph of Sirealious Pendragon" class="profile-photo">
+            <h3 class="about"> About</h3>
+            <p class="description" style="left: 535px; top: 256px;">Hi, My name is Marc Cook and this is my design portfolio, when I am not designing web pages you can most likely find me: mountain biking/kayaking, disc golfing, woodworking/skulping or playing with my cats. </p>
+
         </section>
-        <div class='grass'>
+        <div class="grass" style="width: 1772px; top: 176px; height: 511px;">
 
-</div>
+        </div>
 
 
-        
-      <footer>
-        <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
-      <p class='regs'>&copy; 2014 Sirealious Pendragon</p>
-      </footer>
-      </div>
+
+        <footer>
+            <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+            <p class="regs" style="left: 497px; top: 431px;">© 2014 Pendragon</p>
+        </footer>
+
+
+
+
+
+
+
+
+    </div>
 </body>
-</html>
-
