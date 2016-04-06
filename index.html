@@ -12,7 +12,7 @@
 
     <script type="text/javascript">
         $(document).ready(function() {
-            $("#draggable").draggable();
+            $(".draggable").draggable();
         });
     </script>
 
@@ -135,14 +135,33 @@
         </div>
         <div class="dirt" style="margin-left: -953px; margin-top: 479px;">
             <div class="legend_left"></div>
-            
+
             <div class="legend_right"></div>
-<!--BUILDINGS-->
-            
-            <div id="drag">
-            <img src="img/office_building.png" alt="office building" class="office-building" style="width: 57px; margin-left: 1480px; margin-top: 29px;">
-        </div>
+            <!--BUILDINGS-->
+
+            <div class="draggable ui-draggable ui-draggable-handle" style="position: relative;">
+                <img src="img/office_building.png" alt="office building" class="office-building" style="width: 57px; margin-left: 1480px; margin-top: 29px;">
             </div>
+            <div class="draggable ui-draggable ui-draggable-handle" style="position: relative;">
+                <img src="img/hotel.png" alt="office building" class="office-building" style="width: 57px; margin-left: 1480px; margin-top: 29px;">
+            </div>
+            <div class="draggable ui-draggable ui-draggable-handle" style="position: relative;">
+                <img src="img/yellow_house.png" alt="office building" class="office-building" style="width: 57px; margin-left: 1480px; margin-top: 29px;">
+            </div>
+
+            <div class="draggable" style="position: relative;">
+                <img src="img/brick_building.png" alt="office building" class="office-building" style="width: 57px; margin-left: 1599px; margin-top: -231px;">
+            </div>
+            
+            <div class="draggable" style="position: relative;">
+                <img src="img/house.png" alt="office building" class="office-building" style="width: 57px; margin-left: 1599px; margin-top: -121px;">
+            </div>
+            
+            <div class="draggable" style="position: relative;">
+                <img src="img/burbs.png" alt="office building" class="office-building" style="width: 57px; margin-left: 1599px; margin-top: -51px;">
+            </div>
+            
+        </div>
     </div>
 
 
@@ -163,7 +182,7 @@ DRAGGABLE CONTENT
 -->
 
 
-    <div id="draggable" class="ui-widget-content ui-draggable ui-draggable-handle">
+    <div id="draggable" class="draggable ui-draggable ui-draggable-handle">
         <div class="mountain_move" style="left: -1px; top: 1px;"></div>
         <div class="snow_move"></div>
     </div>
