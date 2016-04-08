@@ -8,17 +8,37 @@
     <link rel="stylesheet" href="css/responsive.css">
     <script type="text/javascript" src="js/jquery-1.12.1.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
- <script type="text/javascript" src="draggable.js"></script>
+    <script type="text/javascript" src="draggable.js"></script>
 
     <script type="text/javascript">
+        
+//                /*Copier*/
+//        
+//document.getElementById('.draggable').onclick = duplicate;
+//
+//
+//var i = 0;
+//var original = document.getElementById('.draggable');
+//
+//function duplicate() {
+//    var clone = original.cloneNode(true); // "deep" clone
+//    clone.id = ".draggable" + ++i; // there can only be one element with an ID
+//    original.parentNode.appendChild(clonea;
+//}   
+//        
+//        
+        /*This chunk makes buildings and trees moveable*/
+       
+                                    
         $(document).ready(function() {
             $(".draggable").draggable();
         });
+        
+       
 
-    
     </script>
 
-   
+
 
 
 </head>
@@ -43,8 +63,8 @@
 
     <div id="ocean">
         <div class="shore" style="height: 514px;"></div>
-        <div class="water" style="height: 508px;"></div>
-        <div class="water1" style="height: 549px;"></div>
+        <div class="water" style="height: 525px;"></div>
+        <div class="water1" style=" left: -5px; top: 14px;"></div>
 
     </div>
 
@@ -139,8 +159,18 @@
             <div class="legend_left"></div>
 
             <div class="legend_right"></div>
-            <!--BUILDINGS-->
+            
+            
+            
+            
+            
+            
+            
+                <!--BUILDINGS-->
 
+                    
+
+            
             <div class="draggable ui-draggable ui-draggable-handle" style="position: relative;">
                 <img src="img/office_building.png" alt="office building" class="office-building" style="width: 57px; margin-left: 1480px; margin-top: 29px;">
             </div>
@@ -182,7 +212,7 @@
             </div>
 
             <div class="draggable ui-draggable ui-draggable-handle" style="position: relative;">
-                <img src="img/pine_tree.png" alt="office building" class="office-building" style="width: 57px; margin-left: 30px; margin-top: -139px;">
+                <img src="img/pine_tree.png" alt="office building" class="office-building" style="width: 57px; margin-left: 30px; margin-top: -159px;">
             </div>
 
             <div class="draggable ui-draggable ui-draggable-handle" style="position: relative;">
@@ -190,17 +220,31 @@
             </div>
 
             <div class="draggable ui-draggable ui-draggable-handle" style="position: relative; left: -1px; top: 1px;">
-                <img src="img/little_bush.png" alt="office building" class="office-building" style="width: 57px; margin-left: 139px; margin-top: -231px;">
+                <img src="img/little_bush.png" alt="office building" class="office-building" style="width: 57px; margin-left: 139px; margin-top: -211px;">
             </div>
 
             <div class="draggable ui-draggable ui-draggable-handle" style="position: relative; left: -1px; top: 1px;">
-                <img src="img/tall_bush.png" alt="office building" class="office-building" style="width: 57px; margin-left: 271px; margin-top: -136px;">
+                <img src="img/tall_bush.png" alt="office building" class="office-building" style="width: 57px; margin-left: 271px; margin-top: -150px;">
             </div>
 
             <div class="draggable ui-draggable ui-draggable-handle" style="position: relative; left: -1px; top: 1px;">
-                <img src="img/road_diag.png" alt="office building" class="office-building" style="width: 57px; margin-left: 167px; margin-top: -141px;">
+                <img src="img/road_diag.png" alt="office building" class="office-building" style="width: 57px; margin-left: 167px; margin-top: -45px;">
+            </div>
+            
+            
+            <div class="draggable ui-draggable ui-draggable-handle" style="position: relative; left: -1px; top: 1px;">
+                <img src="img/long_bush.png" alt="office building" class="office-building" style="width: 57px; margin-left: 167px; margin-top: -110px;">
+            </div>
+            
+            
+            <div class="draggable ui-draggable ui-draggable-handle" style="position: relative; left: -1px; top: 1px;">
+                <img src="img/road_diag_left.png" alt="office building" class="office-building" style="width: 57px; margin-left: 271px; margin-top: -45px;">
             </div>
 
+            
+            <div class="draggable ui-draggable ui-draggable-handle" style="position: relative; left: -1px; top: 1px;">
+                <img src="img/three_down.png" alt="office building" class="office-building" style="width: 57px; margin-left: 30px; margin-top: -45px;">
+            </div>
 
         </div>
     </div>
