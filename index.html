@@ -10,28 +10,33 @@
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="draggable.js"></script>
 
-    <script type="text/javascript">
+    <script type="text/javascript">     
         
-//                /*Copier*/
-//        
-//document.getElementById('.draggable').onclick = duplicate;
-//
-//
-//var i = 0;
-//var original = document.getElementById('.draggable');
-//
-//function duplicate() {
-//    var clone = original.cloneNode(true); // "deep" clone
-//    clone.id = ".draggable" + ++i; // there can only be one element with an ID
-//    original.parentNode.appendChild(clonea;
-//}   
-//        
-//        
         /*This chunk makes buildings and trees moveable*/
        
                                     
         $(document).ready(function() {
-            $(".draggable").draggable();
+            $(".draggable ").draggable({helper: "clone"});
+            
+            
+            //This should make then droppable but it isn't working for some reason.
+            $(".grass").droppable(
+                
+                {
+                    accept:".draggable",
+                    drop: function (event, ui){
+                        var droppedItem = $(ui.draggable).clone();
+                        $(this).append(droppedItem);
+//                       alert('Yay, you dropped your first item!');
+                    }
+                    
+                }
+            
+            );
+             
+       
+            
+            
         });
         
        
@@ -169,9 +174,9 @@
                 <!--BUILDINGS-->
 
                     
-
+<div id="duplicate" onlick="duplicate()" class="ui-widget-content">
             
-            <div class="draggable ui-draggable ui-draggable-handle" style="position: relative;">
+            <div class="draggable ui-draggable ui-draggable-handle" onlick="duplicate()" style="position: relative;">
                 <img src="img/office_building.png" alt="office building" class="office-building" style="width: 57px; margin-left: 1480px; margin-top: 29px;">
             </div>
             <div class="draggable ui-draggable ui-draggable-handle" style="position: relative;">
@@ -245,7 +250,7 @@
             <div class="draggable ui-draggable ui-draggable-handle" style="position: relative; left: -1px; top: 1px;">
                 <img src="img/three_down.png" alt="office building" class="office-building" style="width: 57px; margin-left: 30px; margin-top: -45px;">
             </div>
-
+            </div>
         </div>
     </div>
 
