@@ -1,6 +1,6 @@
 # Portfolio
 
-This is a portfolio idea I had floating around. I wanted it to feel a bit like a game.
+This is a portfolio idea I had floating around. I want it to feel a bit like a game.
 
 -bugs to fix. 
 
